@@ -14,7 +14,7 @@ public class Cadastro {
 		super();
 		this.numeroConta = numeroConta;
 		this.nomeTitular = nomeTitular;
-		this.saldo = valorInicial;
+		Deposito(valorInicial);
 	}
 
 	public Cadastro(int numeroConta, String nomeTitular) {
